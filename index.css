@@ -1,0 +1,41 @@
+#circle{
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-delay: 0s;
+    animation-timing-function:ease-in-out ;
+    
+}
+@keyframes move{
+    0%{
+        transform: translateX(0%);
+    }
+    50%{
+        transform: translateX(30%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+    
+}
+
+#circle2{
+    animation-name: move2;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-delay: 0s;
+    animation-timing-function:ease-in-out ;
+    
+}
+@keyframes move2{
+    0%{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(15%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+    
+}
